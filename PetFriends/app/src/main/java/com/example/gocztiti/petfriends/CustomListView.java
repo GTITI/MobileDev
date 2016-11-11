@@ -15,7 +15,7 @@ public class CustomListView extends Activity {
 
     ListView list;
     CustomAdapter adapter;
-    public  CustomListView CustomListView = null;
+    public CustomListView CustomListView = null;
     public ArrayList<ListModel> CustomListViewValuesArr = new ArrayList<ListModel>();
 
     @Override
@@ -30,48 +30,50 @@ public class CustomListView extends Activity {
         /******** Take some data in Arraylist ( CustomListViewValuesArr ) ***********/
         setListData();
 
-        Resources res =getResources();
-        list= ( ListView )findViewById( R.id.list );  // List defined in XML ( See Below )
+        Resources res = getResources();
+        list = (ListView) findViewById(R.id.list);  // List defined in XML ( See Below )
 
         /**************** Create Custom Adapter *********/
-        adapter=new CustomAdapter( CustomListView, CustomListViewValuesArr,res );
-        list.setAdapter( adapter );
+        adapter = new CustomAdapter(CustomListView, CustomListViewValuesArr, res);
+        list.setAdapter(adapter);
 
     }
 
-    /****** Function to set data in ArrayList *************/
-    public void setListData()
-    {
+    /******
+     * Function to set data in ArrayList
+     *************/
+    public void setListData() {
 
         for (int i = 0; i < 11; i++) {
 
             final ListModel sched = new ListModel();
 
             /******* Firstly take data in model object ******/
-            sched.setName("Company "+i);
+            sched.setName("Company " + i);
             //sched.setImage("image"+i);
-            sched.setDesciption("http:\\www."+i+".com");
+            sched.setDesciption("http:\\www." + i + ".com");
 
             /******** Take Model Object in ArrayList **********/
-            CustomListViewValuesArr.add( sched );
+            CustomListViewValuesArr.add(sched);
         }
 
     }
 
 
-    /*****************  This function used by adapter ****************/
-    public void onItemClick(int mPosition)
-    {
-        ListModel tempValues = ( ListModel ) CustomListViewValuesArr.get(mPosition);
+    /*****************
+     * This function used by adapter
+     ****************/
+    public void onItemClick(int mPosition) {
+        ListModel tempValues = (ListModel) CustomListViewValuesArr.get(mPosition);
 
 
         // SHOW ALERT
 
         Toast.makeText(CustomListView,
-                ""+tempValues.getName()
+                "" + tempValues.getName()
                         +
-                        "Description:"+tempValues.getDesciption(),
-        Toast.LENGTH_LONG)
-        .show();
+                        "Description:" + tempValues.getDesciption(),
+                Toast.LENGTH_LONG)
+                .show();
     }
 }

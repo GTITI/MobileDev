@@ -9,7 +9,7 @@ public class Pets {
     private String desc;
     private boolean accepted;
 
-    public Pets(String name, String desc, Boolean accepted){
+    public Pets(String name, String desc, Boolean accepted) {
         this.name = name;
 
         this.desc = desc;
@@ -23,6 +23,7 @@ public class Pets {
     public String getDesc() {
         return desc;
     }
+
     public Boolean getAccepted() {
         return accepted;
     }
@@ -34,6 +35,7 @@ public class Pets {
     public void setAddress(String desc) {
         this.desc = desc;
     }
+
     public void setAccepted(Boolean Accepted) {
         this.accepted = accepted;
     }

@@ -6,14 +6,15 @@ package com.example.gocztiti.petfriends;
 
 public class ListModel {
 
-    private  String Name="";
+    private String Name = "";
     //private  String Image="";
-    private  String Desciption="";
+    private String Desciption = "";
 
-    /*********** Set Methods ******************/
+    /***********
+     * Set Methods
+     ******************/
 
-    public void setName(String Name)
-    {
+    public void setName(String Name) {
         this.Name = Name;
     }
 
@@ -22,15 +23,15 @@ public class ListModel {
 //        this.Image = Image;
 //    }
 
-    public void setDesciption(String Url)
-    {
+    public void setDesciption(String Url) {
         this.Desciption = Url;
     }
 
-    /*********** Get Methods ****************/
+    /***********
+     * Get Methods
+     ****************/
 
-    public String getName()
-    {
+    public String getName() {
         return this.Name;
     }
 
@@ -39,8 +40,7 @@ public class ListModel {
 //        return this.Image;
 //    }
 
-    public String getDesciption()
-    {
+    public String getDesciption() {
         return this.Desciption;
     }
 }
