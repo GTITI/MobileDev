@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app2="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_games_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="5dp"
+    tools:context="com.licenta.firebase.GamesList"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app2:srcCompat="@color/colorAccent"
+            android:id="@+id/imageButton11"
+
+            android:layout_weight="1"
+            android:contentDescription=""
+            />
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app2:srcCompat="@color/colorAccent"
+            android:id="@+id/imageButton12"
+
+            android:layout_weight="1"
+             />
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app2:srcCompat="@color/colorAccent"
+            android:id="@+id/imageButton13"
+
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app2:srcCompat="@color/colorAccent"
+            android:id="@+id/imageButton21"
+
+            android:layout_weight="1" />
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app2:srcCompat="@color/colorAccent"
+            android:id="@+id/imageButton22"
+
+            android:layout_weight="1" />
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app2:srcCompat="@color/colorAccent"
+            android:id="@+id/imageButton23"
+
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app2:srcCompat="@color/colorAccent"
+            android:id="@+id/imageButton31"
+
+            android:layout_weight="1" />
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app2:srcCompat="@color/colorAccent"
+            android:id="@+id/imageButton32"
+
+            android:layout_weight="1" />
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app2:srcCompat="@color/colorAccent"
+            android:id="@+id/imageButton33"
+
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app2:srcCompat="@color/colorAccent"
+            android:id="@+id/imageButton41"
+
+            android:layout_weight="1" />
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app2:srcCompat="@color/colorAccent"
+            android:id="@+id/imageButton42"
+
+            android:layout_weight="1" />
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app2:srcCompat="@color/colorAccent"
+            android:id="@+id/imageButton43"
+
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app2:srcCompat="@color/colorAccent"
+            android:id="@+id/imageButton51"
+
+            android:layout_weight="1" />
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app2:srcCompat="@color/colorAccent"
+            android:id="@+id/imageButton52"
+
+            android:layout_weight="1" />
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app2:srcCompat="@color/colorAccent"
+            android:id="@+id/imageButton53"
+
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>

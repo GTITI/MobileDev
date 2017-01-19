@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "227530013309",
+    "firebase_url": "https://braintrain-961e7.firebaseio.com",
+    "project_id": "braintrain-961e7",
+    "storage_bucket": "braintrain-961e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227530013309:android:682a98a23c304201",
+        "android_client_info": {
+          "package_name": "com.licenta.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227530013309-bi6onc45vuversh27g27sdi4ro0lbea5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.licenta.firebase",
+            "certificate_hash": "9D6E8914ED19A5ADC5CDE0F9DE895436843765A6"
+          }
+        },
+        {
+          "client_id": "227530013309-2p11hscigp31vuu7tt08knp8jj8h59qs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnilLKT_AnV6vaesHQnent1UGmkZmn1KY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227530013309-2p11hscigp31vuu7tt08knp8jj8h59qs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

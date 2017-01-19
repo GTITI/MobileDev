@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cats"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.gocztiti.petfriends.Cats"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Name..."
+        android:id="@+id/nameInput"
+        android:textColorLink="@android:color/holo_green_light"
+
+        android:layout_marginTop="1dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description..."
+
+        android:id="@+id/descriptionInput"
+        android:textColorLink="@android:color/holo_green_light"
+
+        android:layout_marginTop="5dp"
+
+        android:layout_alignParentLeft="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="Add"
+            android:layout_width="177dp"
+            android:layout_height="30sp"
+            android:id="@+id/addBtn"
+            android:background="@android:color/holo_green_dark"
+            style="@style/Widget.AppCompat.Button.Colored"
+
+            />
+        <Button
+            android:text="Show/refresh list"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/refreshBtn"
+
+            android:background="@android:color/holo_orange_dark"
+            android:layout_alignTop="@+id/productNameInput"
+            />
+
+    </LinearLayout>
+
+    <!--<Button-->
+    <!--android:text="Add"-->
+    <!--android:layout_width="177dp"-->
+    <!--android:layout_height="30sp"-->
+    <!--android:id="@+id/addBtn"-->
+    <!--android:background="@android:color/holo_green_dark"-->
+    <!--style="@style/Widget.AppCompat.Button.Colored"-->
+
+    <!--/>-->
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"
+        android:id="@+id/listPetType"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:contextClickable="false"
+        android:minHeight="25dip"
+        android:clickable="true" />
+
+</LinearLayout>
